@@ -1,0 +1,39 @@
+.history{
+    max-width: 1200px;
+    padding: 20px;
+    margin-inline:auto;
+    opacity: 0.7;
+}
+.history p{
+    text-align: center;
+}
+.history header{
+    color: rgb(255,115,128);
+    font-size: 20px;
+    text-align: center;
+}
+.history content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.history ul{
+    list-style: none;
+ 
+}
+.history ul li img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.history ul li{
+    margin-block:15px;
+}
+.history .text-1{
+    font-weight: 600;
+}
+.history .text-2{
+    font-weight: 400;
+
+}

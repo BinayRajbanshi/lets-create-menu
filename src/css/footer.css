@@ -1,0 +1,38 @@
+/* css for alert */
+
+.alert{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px; 
+    width: 95%;
+    margin-inline: auto;
+}
+.danger {
+    color: #721c24;
+    background: #f8d7da;
+  }
+  .success {
+    color: #155724;
+    background: #d4edda;
+  }
+
+  /* footer */
+  .footer{
+    text-align: center;
+    color: rgba(0,0,0,0.8);
+  }
+
+  @media screen and (max-width:800px) {
+    .alert{
+      font-size: 16px;
+      letter-spacing: normal;
+      height: auto;
+      font-weight: normal;
+      width: 100%;
+    }
+  }
